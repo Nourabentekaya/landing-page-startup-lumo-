@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lumo – L'énergie de votre entreprise, enfin maîtrisée</title>
+  <meta name="description" content="Lumo aide les PME à suivre et réduire leur consommation d'énergie. Startup fictive – mini projet web.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&amp;display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <a class="logo" href="#accueil"><span class="logo-dot" ></span>Lumo</a>
+    <nav aria-label="Navigation principale">
+      <ul>
+        <li><a href="#apropos">A propos</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#equipe">Equipe</a></li>
+        <li><a class="nav-cta" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="hero" id="accueil" >
+      <div class="hero-text">
+        <p class="eyebrow">Startup · Energie &amp; PME</p>
+        <h1 id="titre-hero">L'energie de votre entreprise, enfin maîtrisée.</h1>
+        <p class="hero-sub">Lumo mesure, analyse et réduit la consommation de vos locaux, sans installation compliquée.</p>
+        <div class="hero-actions">
+          <button class="btn" type="button" id="ouvrir-modale">Demander une démo</button>
+          <a class="btn btn-ghost" href="#services">Voir nos services</a>
+        </div>
+      </div>
+      <div class="hero-visual" >
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="mini-card">
+          <span>Consommation</span>
+          <strong>−23 %</strong>
+          <span>en 3 mois</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="apropos" >
+      <div class="container two-col">
+        <div>
+          <h2 id="titre-apropos">A propos</h2>
+          <p>Lumo est née d'un constat simple : la plupart des petites entreprises paient leur énergie sans savoir où elle part. Nous avons créé un outil clair, abordable et pensé pour ceux qui n'ont pas de service technique.</p>
+          <p>Notre mission : rendre chaque kilowattheure visible, pour que chaque économie devienne évidente.</p>
+        </div>
+        <ul class="stats">
+          <li><strong data-compteur="120">120</strong><span>entreprises clientes</span></li>
+          <li><strong data-compteur="18" data-suffixe=" %">18 %</strong><span>d'économie moyenne</span></li>
+          <li><strong>2024</strong><span>année de création</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section alt" id="services" >
+      <div class="container">
+        <h2 id="titre-services">Services</h2>
+        <div class="cards">
+          <article class="card">
+            <span class="card-icon" >01</span>
+            <h3>Suivi en temps réel</h3>
+            <p>Un tableau de bord simple qui affiche la consommation de chaque zone de vos locaux.</p>
+          </article>
+          <article class="card">
+            <span class="card-icon" >02</span>
+            <h3>Alertes intelligentes</h3>
+            <p>Soyez prévenu dès qu'une consommation sort de l'ordinaire, avant que la facture ne grimpe.</p>
+          </article>
+          <article class="card">
+            <span class="card-icon" >03</span>
+            <h3>Conseils personnalisés</h3>
+            <p>Des recommandations concrètes, classées par gain potentiel, adaptées a votre activité.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="equipe" >
+      <div class="container">
+        <h2 id="titre-equipe">Équipe</h2>
+        <div class="cards">
+          <article class="card member">
+            <span class="avatar" >SK</span>
+            <h3>Sarra Khelifi</h3>
+            <p class="role">Cofondatrice &amp; directrice générale</p>
+          </article>
+          <article class="card member">
+            <span class="avatar" >MB</span>
+            <h3>Mehdi Ben Salem</h3>
+            <p class="role">Cofondateur &amp; directeur technique</p>
+          </article>
+          <article class="card member">
+            <span class="avatar" >LR</span>
+            <h3>Lina Rezgui</h3>
+            <p class="role">Responsable design &amp; produit</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section temoignages" id="temoignages" >
+      <div class="container">
+        <h2 id="titre-temoignages">Témoignages</h2>
+        <div class="carousel">
+          <div class="carousel-piste">
+            <figure class="temoignage">
+              <blockquote><p>Grâce à Lumo, nous avons enfin compris d'où venait notre facture. Nous avons réduit notre consommation en quelques semaines.</p></blockquote>
+              <figcaption>Amira, gérante d'une boulangerie</figcaption>
+            </figure>
+            <figure class="temoignage">
+              <blockquote><p>L'outil est simple, l'équipe est réactive. Les alertes nous ont évité plusieurs mauvaises surprises.</p></blockquote>
+              <figcaption>Walid, directeur d'une petite imprimerie</figcaption>
+            </figure>
+            <figure class="temoignage">
+              <blockquote><p>Les conseils sont concrets et classés par gain. On sait par où commencer sans être expert.</p></blockquote>
+              <figcaption>Rim, responsable d'un cabinet médical</figcaption>
+            </figure>
+          </div>
+          <div class="carousel-controles">
+            <button class="carousel-btn" type="button" id="carousel-prec">&larr; Précédent</button>
+            <span id="carousel-info">1 / 3</span>
+            <button class="carousel-btn" type="button" id="carousel-suiv">Suivant &rarr;</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="contact" >
+      <div class="container two-col">
+        <div>
+          <h2 id="titre-contact">Contact</h2>
+          <p>Une question, une demande de démo ? Écrivez-nous, nous répondons sous 48 heures.</p>
+          <ul class="coords">
+            <li><strong>Email</strong> contact@lumo-startup.example</li>
+            <li><strong>Téléphone</strong> +216 00 000 000</li>
+            <li><strong>Adresse</strong> 12 rue de l'Innovation, Technopôle</li>
+          </ul>
+        </div>
+        <form action="#" method="post" novalidate>
+          <div class="field">
+            <label for="nom">Nom</label>
+            <input type="text" id="nom" name="nom" required autocomplete="name">
+            <p class="erreur" id="erreur-nom"></p>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required autocomplete="email">
+            <p class="erreur" id="erreur-email"></p>
+          </div>
+          <div class="field">
+            <label for="sujet">Sujet</label>
+            <select id="sujet" name="sujet">
+              <option value="demo">Demande de démo</option>
+              <option value="info">Question générale</option>
+              <option value="partenariat">Partenariat</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" maxlength="500" required></textarea>
+            <p class="compteur-car" id="compteur-message">0 / 500</p>
+            <p class="erreur" id="erreur-message"></p>
+          </div>
+          <button class="btn" type="submit">Envoyer le message</button>
+          <p class="succes" id="message-succes"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <dialog id="modale-demo">
+    <div class="modale-contenu">
+      <h2>Demander une démo</h2>
+      <p>Découvrez Lumo en 20 minutes avec un membre de l'équipe. Envoyez-nous un message et nous vous proposerons un créneau sous 48 heures.</p>
+      <div class="modale-actions">
+        <a class="btn" href="#contact" id="modale-contact">Aller au formulaire</a>
+        <button class="btn btn-secondaire" type="button" id="fermer-modale">Fermer</button>
+      </div>
+    </div>
+  </dialog>
+
+  <footer class="site-footer">
+    
+    <p>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss"
+            alt="CSS Valide !" />
+    </a>
+    </p>
+    <p>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+            alt="CSS Valide !" />
+    </a>
+    </p>
+    <p>&copy 2026 Lumo (startup fictive) · Mini projet Web FIA3 · ISSAT Sousse · A.U. 2026/2027</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
